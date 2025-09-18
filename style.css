@@ -198,6 +198,14 @@ h4 {
     color: #004a8b;
     padding: 1rem;
   }
+
+ header img{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  header img:hover {
+    transform: translateY(-10px); /* moves up 10px */
+  }
   
   nav {
     display: flex;
