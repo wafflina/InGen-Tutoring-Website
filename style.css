@@ -1,15 +1,19 @@
 /* style.css */
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: Bradley Hand, cursive;
     margin: 0;
     background: #d6d2c4;
     color: #222;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
 
 p {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 100;
 }
+
 
 .big{
   font-size: 30px;
@@ -53,6 +57,13 @@ li {
     font-family: 'League Spartan', sans-serif;
     color: #f8f6f1;
     font-size: 100px;
+    margin:0;
+  }
+
+  h5{
+    font-family: Impact, fantasy;
+    color: black;
+    font-size: 60px;
     margin:0;
   }
 .three-columns{
@@ -127,6 +138,10 @@ li {
   margin-top: 3rem;
   margin-bottom: 3rem;
  }
+ .right-image{
+  float: right;
+  
+ }
  
   .schedule {
     float: right;
@@ -162,6 +177,8 @@ h4 {
   margin: auto;
   font-size: 30px;
 }
+
+
 .About-us {
   position: relative;
   background-image: url('people-image.png');
@@ -204,10 +221,15 @@ h4 {
   }
   
   .hero {
-    font-family: Papyrus, fantasy;
-    background-color: #d8e3f7;
+    font-family: Bradley Hand, cursive;
     text-align: center;
-    padding: 4rem 2rem;
+    flex-grow: 1;
+    position: relative;
+    background-image: url('home3.png');
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    margin: auto;
   }
   
 
@@ -218,7 +240,7 @@ h4 {
   
   footer {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #3249b3;
+    background-color: #428fba;
     color: white;
     text-align: center;
     padding: 1rem;
